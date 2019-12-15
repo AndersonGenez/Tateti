@@ -1,0 +1,64 @@
+section#Principal {
+            display: inline-block;
+            margin: 0 auto;
+            text-align: center;
+            width: 100%;
+            
+        }
+        article#comandos{
+            display: inline-block;
+            border: 4px solid #0008ff;
+            min-height: 300px;
+            vertical-align: top;
+            min-width: 200px auto;
+            
+        }
+        article#tablero{
+            border: 4px solid #0008ff;
+            display: inline-block;
+            margin: 0 auto;
+            text-align: center;
+            width: 0 auto;
+        }
+        article#tablero input{
+            font-size: 3em;
+            height: 120px;
+            margin: 0.1px;
+            width: 120px;
+        }
+        input[type="text"]{
+            font-size: 0.8em;
+            margin: 0.2em;
+            padding: 0.1em;
+            border-color: gray;
+        }
+        label{
+            font-size: 1em;
+            font-weight: bold;
+            text-align: center;
+        }
+        .botonInicial{
+            color: #0008ff;
+            background-color: #0008ff;
+        }
+        .botonInicial{
+            color: transparent;
+            background-color: transparent;
+            border-color: white;
+        }
+        .botonJugador1{
+            color: white;
+            background-color: #00FF00;
+        }
+        .botonJugador2{
+            color: white;
+            background-color: #e5ff00;
+        }
+        body{
+            background-image: url('fondo.jpg');
+            background-size: 95%;
+            /*background-position-y: 100%;*/
+        }
+        #Iniciar{
+            border-radius: 8px;
+        }
