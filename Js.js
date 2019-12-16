@@ -128,43 +128,6 @@
                      
                         } 
                         function ganador (win){
-                            alert("Ha ganado " + win)
+                            alert("Ha ganado " + win);
                         }
-<<<<<<< HEAD:Js.js
-        }
-=======
-        }
-            
-        </script>
-                    
-
-    </head>
-    <body bgcolor="skyblue">
-        <h1 align ="center">Ta-Te-Ti</h1>
-        <section id= "Principal">
-            <article id= "comandos">
-                <h2>Jugador 1:</h2> 
-                <input type="text" id="Jugador1"><br>
-                <h2>Jugador 2:</h2>
-                <input type="text" id="Jugador2"><br>
-                <label id="turnoJugador"></label>
-                <input type="button" id="Iniciar" value="Comenzar"><br>
-            </article>
-
-            <article id= "tablero">
-                <input type="button" id="b0" onclick="colocar(this)">  
-                <input type="button" id="b1" onclick="colocar(this)"> 
-                <input type="button" id="b2" onclick="colocar(this)"><br> 
-                
-                <input type="button" id="b3" onclick="colocar(this)">  
-                <input type="button" id="b4" onclick="colocar(this)"> 
-                <input type="button" id="b5" onclick="colocar(this)"><br> 
-
-                <input type="button" id="b6" onclick="colocar(this)">  
-                <input type="button" id="b7" onclick="colocar(this)"> 
-                <input type="button" id="b8" onclick="colocar(this)"><br> 
-            </article>
-        </section>
-    </body> 
-</html>
->>>>>>> 2590238c9e1bf612a153c1404406d37f39255135:index.html
+                    }
