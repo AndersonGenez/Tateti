@@ -1,8 +1,7 @@
-
-                var bandera = false;     //Indica si el juego ya inició
-                var turno = 0;          //Determina el turno
-                var tab = new Array(); //Array de botones
-                var vel = 250;
+var bandera = false;     //Indica si el juego ya inició
+var turno = 0;          //Determina el turno
+var tab = new Array(); //Array de botones
+var vel = 250;
 
 
                     window.onload = function(){
@@ -85,7 +84,7 @@
                                             bandera = false;                                    
                                         }
         }
-                          }
+    }
                         revisar();
 
                         empate();

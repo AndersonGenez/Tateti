@@ -1,17 +1,27 @@
+#fre{
+    display: inline-block
+}
+#doc{
+    
+    margin-top: 10px;
+    
+}
+
 section#Principal {
-            display: inline-block;
+            /*display: inline-block;*/
             margin: 0 auto;
             text-align: center;
             width: 100%;
             
         }
         article#comandos{
-            display: inline-block;
+            /*display: inline-block;*/
             border: 4px solid #0008ff;
             min-height: 300px;
             vertical-align: top;
             min-width: 200px auto;
-            
+            margin-bottom: 15px;
+            position: top;
         }
         article#tablero{
             border: 4px solid #0008ff;
@@ -59,6 +69,9 @@ section#Principal {
             background-size: 95%;
             /*background-position-y: 100%;*/
         }
-        #Iniciar{
+        .click{
             border-radius: 8px;
+        }
+        #codigo{
+            margin-top: 5px;
         }
