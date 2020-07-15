@@ -1,50 +1,59 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
+        <link rel="stylesheet" href="grid.css">
         <link rel="stylesheet" href="estilo.css">
-        
-                    
-
+        <meta name="viewport" charset="UTF-8" content="width=device-width, initial-scale=1.0" >
+        <link rel="icon" href="images/favicon.ico">
+        <title>Ta-Te-Ti</title>
     </head>
-    <body bgcolor="skyblue">
-        <h1 align ="center">Ta-Te-Ti</h1>
-        <section id= "Principal">
-            <div id="fre">
-            <article id= "comandos">
-                <h2>Jugador 1:</h2> 
-                <input type="text" id="Jugador1"><br>
-                <h2>Jugador 2:</h2>
-                <input type="text" id="Jugador2"><br>
-                <label id="turnoJugador"></label>
-                <input type="button" id="Iniciar" value="Comenzar" class="click"><br>
-            </article>
+    <body>
+        <h1>Ta-Te-Ti</h1>
+        <section id="Principal">
+                <div id="fre">
+                       <div id="j1"> 
+                            <h2>Jugador 1:</h2>
+                        </div>
+                       <div id="ju1"> 
+                           <input type="text" id="Jugador1" maxlength="12">
+                        </div>
+                       <div id="j2"> 
+                           <h2>Jugador 2:</h2>
+                        </div>
+                       <div id="ju2"> 
+                           <input type="text" id="Jugador2" maxlength="12">
+                        </div>
+                       <div id="espacio"> 
+                           <label id="turnoJugador"></label>
+                        </div>
+                        <div id="ini">
+                            <input type="button" id="Iniciar" value="Comenzar" class="click"> 
+                        </div>
+                        <div id="melon"> 
+                            <a href="https://drive.google.com/file/d/1s254fH7UGnYIBVd5RmXtFA7Ofz_FCJHB/view?usp=sharing"><input type="button" value="Resumen" class="click" id="doc"></a>
+                        </div>
+                        <div id="sandia">
+                            <a href="https://github.com/AndersonGenez/Tateti"> 
+                                <input type="button" value="Código" class="click" id="codigo">
+                            </a> 
+                        </div>
+                </div>
 
-            <a href="https://drive.google.com/file/d/1s254fH7UGnYIBVd5RmXtFA7Ofz_FCJHB/view?usp=sharing">
-            <input type="button" value="Documentación" class="click" id="doc"><br>
-            </a>
+                <article id="tablero">
+                    <input type="button" id="b0" onclick="colocar(this)">
+                    <input type="button" id="b1" onclick="colocar(this)">
+                    <input type="button" id="b2" onclick="colocar(this)">
 
-            <a href="https://github.com/AndersonGenez/Tateti">
-                <input type="button" 
-                value="Código" 
-                class="click" 
-                id="codigo"
-                ></a>
-        </div>
+                    <input type="button" id="b3" onclick="colocar(this)">
+                    <input type="button" id="b4" onclick="colocar(this)">
+                    <input type="button" id="b5" onclick="colocar(this)">
 
-            <article id= "tablero">
-                <input type="button" id="b0" onclick="colocar(this)">  
-                <input type="button" id="b1" onclick="colocar(this)"> 
-                <input type="button" id="b2" onclick="colocar(this)"><br> 
-                
-                <input type="button" id="b3" onclick="colocar(this)">  
-                <input type="button" id="b4" onclick="colocar(this)"> 
-                <input type="button" id="b5" onclick="colocar(this)"><br> 
-
-                <input type="button" id="b6" onclick="colocar(this)">  
-                <input type="button" id="b7" onclick="colocar(this)"> 
-                <input type="button" id="b8" onclick="colocar(this)"><br> 
-            </article>
+                    <input type="button" id="b6" onclick="colocar(this)">
+                    <input type="button" id="b7" onclick="colocar(this)">
+                    <input type="button" id="b8" onclick="colocar(this)">
+                </article>
         </section>
         <script type="text/javascript" src="./Js.js"></script>
-    </body> 
+        
+    </body>
 </html>
